@@ -216,8 +216,13 @@
 }
 .footer{
     padding: 0 1.2rem;
+    font-size: 0.07rem;
+    color: #000000;
     text-align: center;
     margin-top: 0.2rem;
+}
+.footer a{
+    color: #000000;
 }
 /*媒体查询适配*/
 @media screen and (max-width:1200px){
