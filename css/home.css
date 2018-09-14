@@ -1,0 +1,242 @@
+.container{
+    background-color: #fdd422;
+    padding-bottom: 50px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    display: block;
+    width: 2.6rem;
+    margin: 0 auto;
+    font-size: 0.25rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.1rem;
+    background-image:url("../images/title.png");
+    background-size: 100% 100%;
+    margin-bottom: 0.25rem;
+}
+.introduce{
+    padding: 0 1.5rem;
+    margin-top: 0.2rem;
+}
+.card{
+    display: block;
+    float: left;
+    width: 2.23rem;
+    margin-bottom: 0.1rem;
+    position: relative;
+    border-radius: 0.1rem;
+}
+.introduce img{
+    width: 100%;
+    height: 100%;
+}
+.card_title{
+    font-family: 微软雅黑;
+    font-size: 0.12rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ac6a00;
+    padding: 0.08rem 0;
+    border-radius:0 0 0.1rem 0.1rem;
+}
+.card_Max{
+    float: left;
+    width: 3.39rem;
+    margin-top: 0.2rem;
+    position: relative;
+    border-radius: 0.1rem;
+}
+.mr-15{
+    margin-right: 0.1rem;
+}
+.mt-15{
+    margin-top: 0.1rem;
+}
+.card_main{
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    padding: 0.2rem 0.2rem;
+    display: none;
+}
+.card_main_Max{
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    padding: 0.2rem 0.2rem;
+    display: none;
+}
+.buyBox{
+    margin-top: 0.5rem;
+    padding: 0 1.2rem;
+    position: relative;
+}
+.xiong{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(../images/xiong.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:-0.8rem;
+    left: 1.87rem;
+}
+.ticketImg{
+    width: 3.5rem;
+    float: left;
+}
+.howBuy{
+    width: 3.5rem;
+    float: right;
+}
+.buyBtn{
+    display: block;
+    width: 1.5rem;
+    height: 0.5rem;
+    margin: 0.25rem auto;
+    background: url("../images/buyBtn.png");
+    background-size: 100% 100%;
+}
+.activeStrategy{
+    padding: 0 1.5rem;
+    margin-top: 0.5rem;
+}
+.strategyMain{
+    height: 3.1rem;
+    background: url("../images/strategy.png");
+    background-size: 100% 100%;
+}
+.sellerStrategy{
+    padding: 0 1.5rem;
+    margin-top: 0.5rem;
+}
+.sellerMain{
+    background: url("../images/sellerBg.png");
+    background-size: 100% 100%;
+}
+.dowebok {
+    width: 2.2rem;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    font-size: 0.12rem;
+    line-height: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    float: left;
+}
+/*活动回顾*/
+.review{
+    margin-top: 0.5rem;
+}
+.article{
+    padding: 0 1.5rem;
+}
+.article_title{
+    color: #000000;
+    font-size: 0.13rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0.2rem;
+}
+.articleMain{
+    font-size: 0.1rem;
+
+   letter-spacing: 0.02rem;
+    padding: 0 0.1rem;
+    line-height: 0.17rem;
+}
+.articleMain span:first-child{
+    text-indent: 2em;
+}
+.articleMain span{
+    display: block;
+}
+.reviewImg{
+    margin-top: 0.3rem;
+}
+.reviewImg img{
+    width: 100%;
+    height: 100%;
+}
+.brandShow{
+    margin-top: 0.5rem;
+}
+.pr{
+    position: relative;
+}
+.cup{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../images/cup.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top:-0.25rem;
+    left: 2rem;
+}
+.aboutUs{
+    padding: 0 1.4rem;
+}
+.callUs{
+    font-size: 0.12rem;
+    color: #000000;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin: 0.2rem 0;
+}
+.aboutUs li{
+    font-size: 0.1rem;
+    color: #000000;
+    float: left;
+    letter-spacing: 0.01rem;
+}
+.pd-r-20{
+    border-right: 1px solid #000000;
+    padding-right: 0.4rem;
+}
+.pd-l{
+    padding-left: 0.4rem;
+}
+.footer{
+    padding: 0 1.2rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+/*媒体查询适配*/
+@media screen and (max-width:1200px){
+    .card,.card_Max{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .ticketImg,.howBuy{
+        width: 100%;
+        float: none;
+    }
+
+}
+@media screen and (max-width:786px){
+    .articleMain{
+        letter-spacing: 0;
+        padding: 0 0.1rem;
+        line-height: 0.4rem;
+    }
+
+}
