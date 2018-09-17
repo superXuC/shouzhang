@@ -14,7 +14,7 @@
 	position:absolute; 
 	top:0; 
 	left:0;
-	cursor:move;
+	cursor:auto;
 }
 .str_move_clone {
 	display:inline-block;
