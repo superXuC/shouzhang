@@ -51,6 +51,18 @@
     position: relative;
     border-radius: 0.1rem;
 }
+.card_main_Max h3,.card_main h3{
+    font-family: 微软雅黑;
+    font-size: 0.12rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.card_main_Max span,.card_main span{
+    display: inline-block;
+    font-size: 0.09rem;
+    text-indent: 2em;
+    line-height: 0.2rem;
+}
 .mr-15{
     margin-right: 0.1rem;
 }
@@ -118,6 +130,40 @@
     height: 3.1rem;
     background: url("../images/strategy.png");
     background-size: 100% 100%;
+}
+.strategy_01{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.53rem;
+    margin-top: 1.53rem;
+}
+.strategy_02{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.77rem;
+    margin-top: 0.01rem;
+}
+.strategy_03{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    border-radius: 50%;
+    margin-top: 0.02rem;
+}
+.strategy_04{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: right;
+    border-radius: 50%;
+    margin-top: 1.53rem;
 }
 .sellerStrategy{
     padding: 0 1.5rem;
@@ -215,9 +261,9 @@
     padding-left: 0.4rem;
 }
 .footer{
-    padding: 0 1.2rem;
     font-size: 0.07rem;
     color: #000000;
+    padding: 0 1.2rem;
     text-align: center;
     margin-top: 0.2rem;
 }
